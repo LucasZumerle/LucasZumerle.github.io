@@ -520,8 +520,8 @@
 .sobre__subtitle{
     margin-top: 2.5rem;
     margin-bottom: 1.5rem;
-    font-size: 1.5rem;
-    font-weight: 300;
+    font-size: 1.2rem;
+    text-align: left;
 }
 
 .sobre__img{
