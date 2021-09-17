@@ -430,7 +430,8 @@ body{
     }
 
     .footer__titlee{
-        font-size: 95px;
+        font-size: 79px;
+        text-align: left;
     }
 
     .nav--footer{
