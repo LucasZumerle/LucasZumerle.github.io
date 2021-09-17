@@ -37,10 +37,18 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #00bfa5;
-    background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
-    z-index: -1;
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);    z-index: -1;
+    height: 100vh;
+}
+
+.container_about{
+    background-color:#1e3c72;
+    background-blend-mode: screen;    
+    color: #fff;
+}
+
+.iconos__sobre{
+    width: 60px;
 }
 /* Nav */
 
@@ -115,14 +123,18 @@ body{
 
 /* Habilidades */
 
-.about{
-    text-align: center;
+
+.about__subtitle{
+   text-align: center;
+   font-size: 100px;
+   padding-top: 20px;
 }
 
 .subtitle{
     color: var(--color-title);
     font-size: 6rem;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .about__paragraph{
@@ -155,7 +167,7 @@ body{
 /* Knowledge */
 
 .knowledge{ /*VER COLOR (CAMBIAR( */
-    background-color: #1a237e;
+    background-color:#1e3c72;
     background-position: 0 0,10px 10px;
     overflow: hidden;
     height: 100vh
@@ -191,7 +203,7 @@ body{
 /* Proyectos */
 
 .proyects{
-    background-color: #1565c0;
+    background-color:#1e3c72;
     height: max-content;
 }
 
@@ -230,7 +242,7 @@ body{
 /* Footer */
 
 .footer{
-    background-color:#1D293f;
+    background-color:#1e3c72;
 }
 
 .footer__title{
@@ -382,20 +394,15 @@ body{
         margin: 0;
     }
 
-    .footer__form{
-        width: 100%;
-        justify-content: space-evenly;
-    }
-
-    .footer__input{
-        flex: 1;
-    }
     .knowledge__img{
         max-width: 100%;
     }
     .knowledge__picture{
         width:100%;
         max-width:640px;
+    }
+    .footer__titlee{
+        font-size: 20px;
     }
 }
 
@@ -430,7 +437,7 @@ body{
     }
 
     .footer__titlee{
-        font-size: 10px;
+        font-size: 80px;
         text-align: left;
     }
 
