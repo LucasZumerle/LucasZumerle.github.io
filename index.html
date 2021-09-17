@@ -21,11 +21,9 @@
         <i class="material-icons">arrow_upward</i>
     </button>
     <header class="hero">
-        <nav class="nav container">
-            <div class="nav__logo">
-                <h2 class="nav__title">Lucas Zumerle</h2>
-            </div>
-            <ul class="nav__link nav__link--menu">
+        <nav class="nav containerr">
+            <h2 class="nav__logo">Lucas Zumerle</h2>
+            <ul class="nav__list">
                 <li class="nav__items">
                     <a href="#Habilidades" class="nav__links">Habilidades</a>
                 </li>                
@@ -37,25 +35,26 @@
                 </li>
                     <a href="#Contacto" class="nav__links">Contacto</a>
                 </li>
-
-                <img src="./images/close.svg" class="nav__close" alt="Cerrar">
             </ul>
-
-            <div class="nav__menu">
-                <img src="./images/menu.svg" class="nav__img" alt="Menu">
-            </div>
+            <figure class="nav__menu">
+                <img src="images/menu.svg" class="nav__icon" alt="Logo Menú">
+            </figure>
         </nav>
-
-        <section class="hero__container container">
-            <h1 class="hero__title">Front-End Developer Junior</h1>
-            <p class="hero__paragraph">Este es mi portfolio. Acá vas a encontrar mis proyectos y saber sobre mi.</p>
+        <section class="hero__main containerr">
+            <div class="hero__texts">
+                <h1 class="hero__title">Front-End Developer Trainee</h1>
+                <p class="hero__subtitle">Este es mi portfolio. Acá vas a encontrar mis proyectos y saber sobre mi.</p>
+            </div>
+            <figure class="hero__picture">
+                <img src="images/fotohero.svg" class="hero__img" alt="">
+            </figure>
         </section>
     </header>
 
     <main>
         <section class="container_about" id="Habilidades">
             <h2 class="about__subtitle">Habilidades</h2>
-                <div class="container mb-1">
+                <div class="container">
                     <div class="row mt-5 d-flex">
                         <div class="col-md-4 mb-4">
                             <img src="./images/html.svg" class="iconos__sobre" alt="">
@@ -92,15 +91,33 @@
         </section>
 
         <section class="knowledge"  id="Sobre-mi">
-            <div class="knowledge__container container">
+            <section class="sobre__main containerr">
+                <div class="sobre__texts">
+                    <h1 class="sobre__title">Sobre mí</h1>
+                    <p class="sobre__subtitle">¡Hola! Soy Lucas Zumerle, tengo 20 años y resido en Buenos Aires, Argentina. Actualmente, me encuentro realizando capacitaciones y cursos para poder formarme y desarrollarme como Front-End Developer. Además, estoy estudiando la carrera de Contador Público en la Universidad Nacional de La Matanza. Me considero una persona autodidacta, responsable y capaz de enfrentar todos los objetivos que se me propongan con actitud. Desde muy chico soy apasionado por la tecnología, siempre me interesaron temas relacionados con ésta, ya sea la electrónica, videojuegos, dispositivos móviles, entre otros. Hace unos meses, me di cuenta que quería desarrollarme en el mundo de la tecnología, ya que es mi zona de confort. A su vez, desperté un interés muy grande por la programación, por lo cual mi objetivo es seguir creciendo y formándome para trabajar en empresas en donde pueda dar mi 100% de capacidad y conocimiento.</p>
+                </div>
+                <figure class="sobre__picture">
+                    <img src="images/undraw_Freelancer_re_irh4.svg" class="sobre__img" alt="">
+                </figure>
+            </section>
+            <!-- <div class="row container">
+                <div class="col-md-6">
+                    <h2 class="knowledge__subtitle">Sobre mi</h2>
+                    <p class="knowledge__paragraph">¡Hola! Soy Lucas Zumerle, tengo 20 años y resido en Buenos Aires, Argentina. Actualmente, me encuentro realizando capacitaciones y cursos para poder formarme y desarrollarme como Front-End Developer. Además, estoy estudiando la carrera de Contador Público en la Universidad Nacional de La Matanza. Me considero una persona autodidacta, responsable y capaz de enfrentar todos los objetivos que se me propongan con actitud. Desde muy chico soy apasionado por la tecnología, siempre me interesaron temas relacionados con ésta, ya sea la electrónica, videojuegos, dispositivos móviles, entre otros. Hace unos meses, me di cuenta que quería desarrollarme en el mundo de la tecnología, ya que es mi zona de confort. A su vez, desperté un interés muy grande por la programación, por lo cual mi objetivo es seguir creciendo y formándome para trabajar en empresas en donde pueda dar mi 100% de capacidad y conocimiento.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/undraw_Freelancer_re_irh4.svg" class="knowledge__img" alt="">
+                </div>
+            </div> -->
+            <!-- <div class="knowledge__container container">
                 <div class="knowledge__texts">
                     <h2 class="knowledge__subtitle">Sobre mi</h2>
                     <p class="knowledge__paragraph">¡Hola! Soy Lucas Zumerle, tengo 20 años y resido en Buenos Aires, Argentina. Actualmente, me encuentro realizando capacitaciones y cursos para poder formarme y desarrollarme como Front-End Developer. Además, estoy estudiando la carrera de Contador Público en la Universidad Nacional de La Matanza. Me considero una persona autodidacta, responsable y capaz de enfrentar todos los objetivos que se me propongan con actitud. Desde muy chico soy apasionado por la tecnología, siempre me interesaron temas relacionados con ésta, ya sea la electrónica, videojuegos, dispositivos móviles, entre otros. Hace unos meses, me di cuenta que quería desarrollarme en el mundo de la tecnología, ya que es mi zona de confort. A su vez, desperté un interés muy grande por la programación, por lo cual mi objetivo es seguir creciendo y formándome para trabajar en empresas en donde pueda dar mi 100% de capacidad y conocimiento.</p>
                 </div>
                 <figure class="knowledge__picture">
-                    <img src="./images/yo.png" class="knowledge__img" alt="">
+                    <img src="./images/undraw_Freelancer_re_irh4.svg" class="knowledge__img" alt="">
                 </figure>
-            </div>
+            </div> -->
 
 
         </section>
@@ -226,6 +243,7 @@
         <section class="footer__container container">
             <nav class="nav nav--footer">
                 <h2 class="footer__titlee">Contacto</h2>
+                <br>
                 <p class="footer__paragraph">¿Querés que trabajemos juntos? ¡Enviame un mail o un mensaje con tu propuesta!</p>
             </nav>
         
@@ -241,7 +259,7 @@
                     <textarea class="form-control" placeholder="Mensaje" id="floatingTextarea" name="message"></textarea>
                     <label for="floatingTextarea">Mensaje:</label>
                   </div>
-                <button type="submit" class="btn btn-primary mt-3 w-100" >Enviar!</button>
+                <button type="submit" class="btn btn-light mt-3 w-100 text-dark" >Enviar!</button>
               </form>
         </section>   
 
@@ -260,3 +278,38 @@
     <script src="./js/scrollToTop.js"></script>
 </body>
 </html>
+
+
+
+
+ <!-- <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Lucas Zumerle</h2>
+            </div>
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#Habilidades" class="nav__links">Habilidades</a>
+                </li>                
+                <li class="nav__items">
+                    <a href="#Sobre-mi" class="nav__links">Sobre mi</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#Proyectos" class="nav__links">Proyectos</a>
+                </li>
+                    <a href="#Contacto" class="nav__links">Contacto</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close" alt="Cerrar">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img" alt="Menu">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Front-End Developer Junior</h1>
+            <p class="hero__paragraph">Este es mi portfolio. Acá vas a encontrar mis proyectos y saber sobre mi.</p>
+        </section> 
+    </header> -->
