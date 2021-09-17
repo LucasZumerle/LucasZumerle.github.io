@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 
 :root{
     --padding-container: 100px 0;
@@ -190,7 +192,7 @@ body{
 
 .proyects{
     background-color: #1565c0;
-    height: 100vh;
+    height: max-content;
 }
 
  .proyects__body--show{
@@ -263,25 +265,6 @@ body{
     flex-wrap: wrap;
 }
 
-.footer__inputs{
-    margin-top: 10px;
-    display: flex;
-    overflow: hidden;
-}
-
-.footer__input{
-    background-color: #fff;
-    height: 50px;
-    display: block;
-    padding-left: 10px;
-    border-radius: 6px;
-    font-size: 1rem;
-    outline: none;
-    border: none;
-    margin-right: 16px;
-}
-
-
 .footer__copy{
     --padding-container: 3px 0;
     text-align: center;
@@ -290,17 +273,13 @@ body{
 
 .footer__copyright{
     font-weight: 300;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     padding-top: 10px;
 }
 
 .footer__icons{
     display: inline-flex;
-    margin: 20px;
-}
-
-.footer__img{
-    width: 30px;
+    margin: 10px;
 }
 
 .footer__paragraph{
@@ -312,6 +291,9 @@ body{
 .footer__titlee{
     font-size: 6rem;
     color: #fff;
+}
+.footer__copytxt{
+    padding-bottom: 10px;
 }
 
 /* Media queries */
