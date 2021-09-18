@@ -2,6 +2,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
 :root{
     --padding-container: 100px 0;
     --color-title: #001a49;
@@ -191,6 +196,7 @@
     font-weight: 300;
     padding-bottom: 10px;
     padding-top: 10px;
+    font-size: 200%;
 }
 
 .footer__icons{
@@ -199,9 +205,10 @@
 }
 
 .footer__paragraph{
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
     padding-top: 30px;
+    display: block;
 }
 
 .footer__titlee{
@@ -215,6 +222,7 @@
 /* Media queries */
 
 @media (max-width:800px){
+    
     .nav__menu{
         display: block;
     }
@@ -308,6 +316,7 @@
     .footer__titlee{
         font-size: 20px;
     }
+    
 }
 
 @media (max-width:600px){
@@ -341,7 +350,7 @@
     }
 
     .footer__titlee{
-        font-size: 80px;
+        font-size: 200%;
         text-align: left;
     }
 
@@ -366,6 +375,7 @@
     .footer__submit{
         margin: 0;
         width: 100%;
+        
     }
 }
 
@@ -381,16 +391,16 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #e62739;
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    color: #ffff;
+    color: #1e3c72;
     border: none;
     outline: none;
     cursor: pointer;
 }
 
 #btnScrollToTop:active{
-    background-color: #cc2333;
+    background-color: rgba(255, 255, 255, 0.829);
 }
 
 .content{
