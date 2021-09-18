@@ -21,6 +21,7 @@ html, body {
     padding: var(--padding-container);
 }
 
+
 /* Habilidades */
 
 .container_about{
@@ -34,84 +35,36 @@ html, body {
 
 .about__subtitle{
    text-align: center;
-   font-size: 10vh;
+   font-size: 500%;
    padding-top: 20px;
 }
 
-.subtitle{
-    color: var(--color-title);
-    font-size: 6rem;
-    margin-bottom: 25px;
-    text-align: center;
-}
 
-.about__paragraph{
-    line-height: 1.7;
-}
+/* Sobre mi */
 
-.about__main{
-    padding-top: 80px;
+.sobre__main{
+    grid-area: content;
     display: grid;
-    width: 90%;
-    margin: 0 auto;
-    gap: 1em;
-    overflow: hidden;
-    grid-template-columns:repeat(auto-fit, minmax(260px, auto)) ;
-}
-
-.about__icons{
-    display: grid;
-    gap: 1em;
-    justify-items: center;
-    width: 260px;
-    overflow: hidden;
-    margin: 0 auto;
-}
-
-.about__icon{
-    width: 50px;
-}
-
-/* Knowledge */
-.knowledge{ 
-    color: #fff;
-    background-color: #1e3c72;
-    display: grid;
-    grid-template-rows: max-content 1fr;
-    grid-template-areas: 
-    "nav"
-    "content";
-    min-height: 100vh
-}
-
-.knowledge__container{
-    display: grid;
+    gap: 2em;
     grid-template-columns: 1fr 1fr;
-    gap: 1em;
     align-items: center;
 }
 
-.knowledge__picture{
+.sobre__title{
+    font-size: 5rem;
+    letter-spacing: 2px;
+}
+
+.sobre__subtitle{
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.sobre__img{
     width: 100%;
-} 
-
-.knowledge__img{
-    max-width: 100%;
-    gap: 1em;
-    margin-top: 200px;
-    margin-left: 22px;
-}
-
-.knowledge__subtitle{
-    color: #fff;
-    font-size: 6rem;
-    margin-bottom: 25px;
-}
-
-.knowledge__paragraph{
-    color: #fff;
-    font-size: 20px;
-}
+   }
 
 
 /* Proyectos */
@@ -119,12 +72,6 @@ html, body {
 .proyects{
     background-color:#1e3c72;
     height: max-content;
-}
-
- .proyects__body--show{
-    pointer-events: unset;
-    opacity: 1;
-    transition: opacity 1.5s ease-in-out;
 }
 
 
@@ -136,34 +83,12 @@ html, body {
 }
 
 
-/* Contacto */
-
-
-.contact__icons{
-    text-align: center;
-    color: white;    
-}
-
-.contact__paragraph{
-    text-align: center;
-    font-size: 24px;
-}
-
-/* Footer */
+/* Footer y Contacto */
 
 .footer{
     background-color:#1e3c72;
 }
 
-.footer__title{
-    font-weight: 300;
-    font-size: 3rem;
-    margin-bottom: 30px;
-}
-
-.footer__title, .footer__newsletter{
-    color: white;
-}
 
 .footer__container{
     display: flex;
@@ -177,13 +102,6 @@ html, body {
     gap: 1em;
     grid-auto-flow: row;
     height: 100%;
-}
-
-.nav__link--footer{
-    display: flex;
-    margin: 0;
-    margin-right: 20px;
-    flex-wrap: wrap;
 }
 
 .footer__copy{
@@ -466,7 +384,7 @@ html, body {
     width: 30px;
 }
 
-/* hero main */
+/* Hero */
 
 .hero__main{
     grid-area: content;
@@ -514,26 +432,3 @@ html, body {
     }
 }
 
-.sobre__main{
-    grid-area: content;
-    display: grid;
-    gap: 2em;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-}
-
-.sobre__title{
-    font-size: 5rem;
-    letter-spacing: 2px;
-}
-
-.sobre__subtitle{
-    margin-top: 2.5rem;
-    margin-bottom: 1.5rem;
-    font-size: 1.2rem;
-    text-align: left;
-}
-
-.sobre__img{
-    width: 100%;
-   }
