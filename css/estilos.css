@@ -142,7 +142,7 @@ html, body {
 /* Media queries */
 
 @media (max-width:800px){
-    
+  
     .nav__menu{
         display: block;
     }
@@ -240,6 +240,7 @@ html, body {
 }
 
 @media (max-width:600px){
+
 
     .about__subtitle{
         font-size: 55px;
@@ -404,8 +405,8 @@ html, body {
 }
 
 .hero__title{
-    font-size: 3rem;
-    letter-spacing: 2px;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
 }
 
 .hero__subtitle{
